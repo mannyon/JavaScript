@@ -1,1 +1,2 @@
-# JavaScript-ApnaCollege
+# JavaScript
+Learning JavaScript
