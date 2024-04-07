@@ -11,7 +11,7 @@
 //     cgpa : 9.1,
 //     isPass : true
 // };
-
+console.log("I love coding");
 // const profile = {
 //     userId : "shradhakhapra",
 //     isFollow : true,
