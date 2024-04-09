@@ -79,3 +79,31 @@
 //     }
 // }
 // console.log("You guessed right number");
+
+
+// ***************************Strings*********************************
+
+// let str = "ApneCollege";
+
+// let str2 = "Apna College";
+
+// let obj = {
+//     item : "pen",
+//     price : 10
+// };
+
+// let output = `The cost of ${obj.item} is ₹${obj.price}.`;
+// console.log(output);
+
+// let str = "abc";
+
+// console.log(str.toUpperCase());
+
+let userName = prompt("Enter your name");
+
+userName = userName.replace(/ +/g, "");
+
+console.log(`@${userName}${userName.length}`);
+
+
+
