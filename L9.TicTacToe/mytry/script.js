@@ -23,7 +23,7 @@ for (let i=0; i<btn.length; i++){
             btn[i].innerText = "O";
         }
 
-        // ****************conditions for K***********************
+        // ****************conditions for X***********************
         
         if(btn[0].innerText === "X" && btn[1].innerText === "X" && btn[2].innerText === "X"){
             console.log("Player X is the winner")
