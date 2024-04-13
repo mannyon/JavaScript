@@ -28,6 +28,8 @@ body{
     padding: 50px;
     width: 100px;
     height: 100px;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .winner {
@@ -36,4 +38,23 @@ body{
     margin-top: 10px;
     align-items: center;
     flex-direction: column;
+}
+
+.tie-message {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+.winning-msg {
+    font-size: 24px;
+}
+
+.xwinner {
+    font-size: 1.2rem;
+}
+.owinner {
+    font-size: 1.2rem;
+}
+
+.win {
+    text-decoration: line-through;
 }
