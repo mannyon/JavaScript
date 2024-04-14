@@ -18,12 +18,12 @@ for (let i=0; i<btn.length; i++){
 
         count++;
         if(count%2 === 1){
-            btn[i].innerHTML = "<span class='xwinner'>X</span>";
+            btn[i].innerHTML = "<span>X</span>";
             
         
         }
         else {
-            btn[i].innerHTML = "<span class='owinner'>O</span>";
+            btn[i].innerHTML = "<span>O</span>";
             
       
         }
