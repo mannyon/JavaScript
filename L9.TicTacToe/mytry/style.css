@@ -41,20 +41,9 @@ body{
 }
 
 .tie-message {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
 }
 
 .winning-msg {
     font-size: 24px;
-}
-
-.xwinner {
-    font-size: 1.2rem;
-}
-.owinner {
-    font-size: 1.2rem;
-}
-
-.win {
-    text-decoration: line-through;
 }
