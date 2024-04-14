@@ -33,7 +33,7 @@ for (let i=0; i<btn.length; i++){
         btn[i].disabled = true;
         
         
-        // ****************conditions for X***********************
+        /****************conditions for X***********************/
         
         if(btn[0].innerText === "X" && btn[1].innerText === "X" && btn[2].innerText === "X"){
             console.log("Player X is the winner")
@@ -76,7 +76,7 @@ for (let i=0; i<btn.length; i++){
             disableAllButtons();
         }
 
-        // ****************conditions for O***********************
+        /*****************conditions for O***********************/
 
         else if(btn[0].innerText === "O" && btn[1].innerText === "O" && btn[2].innerText === "O"){
             console.log("Player O is the winner")
@@ -120,7 +120,6 @@ for (let i=0; i<btn.length; i++){
         }
         else if (count === 9) {
             console.log("Game tied");
-            // p.innerText = "Game Tied";
             p.innerHTML = "<span class='tie-message'>Game Tied</span>";
         }
        
