@@ -20,7 +20,7 @@ rock.addEventListener("click", () => {
         marksOfComp[0].innerHTML = `<p class="marks marksOfComp">${compCount}</p>`;
     }
     else if (randomNumber < 2 / 3) {
-        pickMove1[0].innerHTML = '<p class="pick-move-scissor" id="pick-move1">You Won</p>';
+        pickMove1[0].innerHTML =  '<p class="pick-move-scissor" id="pick-move1">You won</p>';
         youCount++;
         marksOfYou[0].innerHTML = `<p class="marks markOfYou">${youCount}</p>`;
     }
