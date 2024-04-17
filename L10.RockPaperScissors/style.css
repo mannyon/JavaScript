@@ -71,13 +71,14 @@
 .pick-move {
     height: 70px;
     width: 250px;
-    background: rgb(3, 3, 29);
+    background-color: rgb(3, 3, 29);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
+
 
 .pick-move-paper{
     height: 70px;
